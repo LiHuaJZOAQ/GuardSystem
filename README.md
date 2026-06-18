@@ -4,11 +4,11 @@
 > 
 > 本项目包含以下3个子项目
 > 
-> 设备端Openharmony南向项目(https://github.com/LiHuaJZOAQ/GuardSys)
+> - 设备端Openharmony南向项目(https://github.com/LiHuaJZOAQ/GuardSys)
 >
-> 设备端Openharmony北向项目(https://github.com/LiHuaJZOAQ/GuardSysAPP)
+> - 设备端Openharmony北向项目(https://github.com/LiHuaJZOAQ/GuardSysAPP)
 >
-> 服务端Web项目(https://github.com/LiHuaJZOAQ/GuardSysServer)
+> - 服务端Web项目(https://github.com/LiHuaJZOAQ/GuardSysServer)
 
 ## 项目概述
 
@@ -92,7 +92,7 @@
 
 | 设备 | 协议 | 引脚/地址 |
 |------|------|-----------|
-| SHT30 温湿度 | I2C | GPIO 5, 地址 0x44 |
+| SHT30 温湿度 | I2C | I2C 5, 地址 0x44 |
 | MQ-2 烟雾 | ADC | GPIO 1 |
 | HC-SR501 红外 | GPIO | GPIO 9 |
 | 蜂鸣器 | GPIO | GPIO 384 |
